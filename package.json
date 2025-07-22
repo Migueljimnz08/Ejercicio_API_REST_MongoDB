@@ -4,7 +4,8 @@
   "description": "Ejercicio para practicar API REST con base de datos MongoDB",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,10 @@
   },
   "homepage": "https://github.com/JavierEspinosaP/Ejercicio_API_REST_MongoDB#readme",
   "dependencies": {
+    "cowsay": "^1.6.0",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
-    "mongoose": "^8.16.4",
-    "cowsay": "^1.6.0"
+    "mongoose": "^8.16.4"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
